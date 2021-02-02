@@ -161,3 +161,35 @@ article > section:nth-child(2) {
     font-weight: 500;
     margin-bottom: 12px;
 }
+
+/*Seccion 3*/
+article > section:nth-child(3) {
+    background-color: #f6f9fd;
+    padding: 40px 0;
+}
+
+#seccionTres {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#seccionTres div {
+    flex-basis: 60%;
+    padding-right: 1.9em;
+}
+h2 {
+    margin-bottom: 20px;
+}
+#seccionTres a {
+    display: inline-block;
+    background-color: #008000;
+    color: #fff;
+    padding: 12px 10em;
+    text-decoration: none;
+    margin: 25px 0;
+}
+video { 
+    flex-basis: 40%;
+    width: 40%;
+    align-self: flex-start;
+}
