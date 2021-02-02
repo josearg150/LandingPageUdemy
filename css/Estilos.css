@@ -133,3 +133,31 @@ small a {
     color: #fff;
 }
 
+/*Seccion 2*/
+article > section:nth-child(2) {
+    padding: 60px 0;
+}
+
+#seccionDos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#seccionDos i {
+    color: #13a3db;
+    font-size: 2.50rem;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 48px 0;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 35px;
+}
+
+.col h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
