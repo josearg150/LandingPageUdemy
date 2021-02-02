@@ -196,7 +196,7 @@ video {
 
 /*Seccion 4 */
 article > section:nth-child(4) {
-    padding: 60px 0;
+    padding: 60px 0 0;
     text-align: center;
 }
 
@@ -225,5 +225,44 @@ article > section:nth-child(4) {
     font-size: 1.50rem;
     color: #107ba7;
     margin: 0 0.2em;
+}
+
+/*Seccion 5*/
+article > section:nth-child(5) {
+    background-image: linear-gradient(to left top,rgba(16, 123, 167, 0.80), rgba(16, 123, 167,0.80)), url(../imgs/fondo_inferior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+#seccionCinco {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#seccionCinco p {
+    padding: 20px 0;
+} 
+
+#seccionCinco h2 {
+    margin-bottom: 0;
+}
+
+#seccionCinco a {
+    display: block;
+    background-color: #37b91e;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 2em;
+}
+
+#seccionCinco a:hover {
+    background-color: #358b24;
+    transition: all 0.5s;
 }
 
