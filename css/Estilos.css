@@ -193,3 +193,37 @@ video {
     width: 40%;
     align-self: flex-start;
 }
+
+/*Seccion 4 */
+article > section:nth-child(4) {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#seccionCuatro {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.card {
+    margin: 20px 0.5em;
+    box-shadow: 2px 5px 15px #ccc9c9;
+    padding-bottom: 35px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+} 
+
+.card p {
+    font-size: 0.90rem;
+    padding: 12px 2em;
+}
+
+.card i {
+    font-size: 1.50rem;
+    color: #107ba7;
+    margin: 0 0.2em;
+}
+
