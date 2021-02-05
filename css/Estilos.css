@@ -265,4 +265,38 @@ article > section:nth-child(5) {
     background-color: #358b24;
     transition: all 0.5s;
 }
+/*Pie de pagina*/
+footer {
+    background-color: #2e2a2a;
+    padding: 20px 0;
+}
 
+.copyright {
+    float: right;
+    color: #c0bcbc;
+    padding-top: 8px;
+}
+
+.nav {
+    float: left;
+}
+
+#pieDePagina {
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 0.80rem;
+    padding: 12px 0 0;
+}
+
+.nav li a {
+    color: #c0bcbc;
+    text-decoration: none;
+    padding-right: 1.5em;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
